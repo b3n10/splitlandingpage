@@ -1,0 +1,22 @@
+{
+  "name": "splitlandingpage",
+  "version": "1.0.0",
+  "description": "traversy media's tutorial on split landing pages (https://youtu.be/oRmQN244Ir0?list=WL)",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "light-server -s . -b localhost -p 3333 -w './**' --historyindex '/index.html' -o"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "js",
+    "landing",
+    "page"
+  ],
+  "author": "Ben Lleve",
+  "license": "MIT",
+  "devDependencies": {
+    "light-server": "^2.2.1"
+  }
+}
